@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { Heros } from './_component/Heros';
 const MarketingPage=()=> {
   return (
-    <div className="h-full flex flex-col">
+    <div className="h-full flex flex-col pt-20">
       <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold">
@@ -17,7 +17,6 @@ const MarketingPage=()=> {
           <Button>
             Enter Jotion
             <ArrowRight></ArrowRight>
-
           </Button>
           <Heros/>
           
